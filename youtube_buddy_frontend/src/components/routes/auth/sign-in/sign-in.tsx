@@ -11,18 +11,18 @@ export default function SignIn() {
     <div className="flex flex-row items-center justify-center w-screen min-h-screen bg-gray-100">
       <div className="flex flex-col items-center justify-center w-full max-w-md p-8 bg-white rounded-lg shadow">
         <h1 className="mb-8 text-3xl">Sign In</h1>
-        <OAuthLinks />
+        {/* <OAuthLinks /> */}
 
-        <Separator className="my-4" />
+        {/* <Separator className="my-4" /> */}
 
         <div className="space-y-2">
-          <Link
+          {/* <Link
             to={'/sign-in/security-key'}
             className={cn(buttonVariants({ variant: 'outline' }), 'w-full')}
           >
             <Fingerprint className="w-4 h-4" />
             <span className="flex-1 text-center">Continue with a security key</span>
-          </Link>
+          </Link> */}
 
           <Link
             to={'/sign-in/magic-link'}

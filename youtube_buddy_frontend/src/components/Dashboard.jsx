@@ -41,7 +41,7 @@ const Dashboard = () => {
     setLoading(true);
     try {
       
-      const response = await axios.post('http://0.0.0.0:8000/summarize', {
+      const response = await axios.post('http://localhost:8000/summarize', {
         video_id: videoId,
         language_code: language,
       },
